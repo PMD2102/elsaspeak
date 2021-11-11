@@ -1,0 +1,63 @@
+.session1 {
+  position: relative;
+  width: 1440px;
+  height: 830px;
+  top: 100px;
+
+  background: #0c2440;
+
+  &__form {
+    position: absolute;
+    top: 64px;
+    left: 131px;
+  }
+  &__image {
+    &__frame2 {
+      position: absolute;
+      width: 581px;
+      height: 801px;
+      top: 34px;
+      left: 859px;
+
+      object-fit: none;
+      object-position: 0 0;
+    }
+    &__phone2 {
+      position: absolute;
+      height: 713px;
+      width: 944px;
+      left: 496px;
+      top: 112px;
+    }
+    &__vector3 {
+      width: 114px;
+      height: 114px;
+      position: absolute;
+      left: 88.47%;
+      right: 3.61%;
+      top: 460px;
+    }
+    &__vector4 {
+      width: 156px;
+      height: 156px;
+      position: absolute;
+      left: 800px;
+      bottom: 70px;
+    }
+    &__vector5 {
+      width: 29.68px;
+      height: 29.67px;
+      position: absolute;
+      left: 770px;
+      bottom: 250px;
+    }
+    &__vector6 {
+      width: 106px;
+      height: 106px;
+      position: absolute;
+      left: 75.69%;
+      right: 16.94%;
+      top: 20%;
+    }
+  }
+}

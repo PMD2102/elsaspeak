@@ -1,0 +1,84 @@
+.banner {
+  width: 1440px;
+  height: 406px;
+  position: relative;
+
+  top: 50px;
+
+  background: #ffffff;
+
+  &__vector1 {
+    width: 109px;
+    height: 109px;
+    object-fit: contain;
+    object-position: 0px 0px;
+    position: absolute;
+    top: 189px;
+    left: 0px;
+  }
+  &__title {
+    position: absolute;
+    width: 650px;
+    height: 112px;
+    left: 114px;
+    top: 71px;
+
+    @include Text-Style-1;
+    text-align: center;
+  }
+  &__para {
+    position: absolute;
+    width: 625px;
+    height: 33px;
+    left: 137px;
+    top: 199px;
+
+    @include Text-Style-4;
+    text-align: center;
+  }
+  &__button {
+    position: absolute;
+    width: 274px;
+    height: 67px;
+    left: 294px;
+    top: 268px;
+
+    background: linear-gradient(
+      80.25deg,
+      #3dffc8 1.31%,
+      #40f6cf 15.32%,
+      #49dce1 38.61%,
+      #57b3ff 68.19%
+    );
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+    border-radius: 20px;
+    border: solid 0px rgba(46, 153, 241, 0.5);
+
+    @include Text-Style-3;
+    cursor: pointer;
+  }
+  &__frame {
+    position: absolute;
+    width: 370px;
+    height: 421px;
+    left: 911px;
+    top: 80px;
+  }
+  &__phone1 {
+    position: absolute;
+    width: 302px;
+    height: 459px;
+    left: 944px;
+    top: 0;
+  }
+  &__vector2 {
+    height: 170px;
+    width: 164px;
+    object-fit: none;
+    object-position: 0px 0px;
+
+    position: absolute;
+    top: 290px;
+    left: 1276px;
+  }
+}

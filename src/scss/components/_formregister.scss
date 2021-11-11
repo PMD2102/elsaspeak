@@ -1,0 +1,176 @@
+.form {
+  position: absolute;
+  width: 600px;
+  height: 702px;
+  &__title {
+    width: 600px;
+    height: 130px;
+    background: linear-gradient(81.84deg, #49dce1 1.09%, #39a3fb 96.86%);
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+    border-radius: 15px 15px 0px 0px;
+
+    &__para {
+      @include Text-Style-2;
+      text-align: center;
+      padding: 16px 25px;
+    }
+  }
+  &__inputs {
+    width: 600px;
+
+    background: #ffffff;
+    box-shadow: 5px 5px 8px rgba(12, 36, 64, 0.3);
+    border-radius: 0px 0px 20px 20px;
+    form {
+      padding: 20px 0 0 36px;
+    }
+    &__name {
+      width: 536px;
+      height: 96px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      &__title {
+        &__image {
+          height: 36px;
+          width: 30px;
+          margin-right: 23px;
+        }
+        @include Text-Style-4;
+        margin-bottom: 8px;
+      }
+      &__input {
+        width: 536px;
+        height: 60px;
+
+        background: #ffffff;
+        border: 2px solid #57b3ff;
+        box-sizing: border-box;
+
+        @include Text-Style-5;
+        padding: 10px;
+      }
+      &__error {
+        @include Text-Style-5;
+        color: red !important;
+        margin-top: 2px;
+      }
+    }
+    &__phone {
+      width: 536px;
+      height: 85px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      &__title {
+        &__image {
+          height: 30px;
+          width: 30px;
+          margin-right: 23px;
+        }
+        @include Text-Style-4;
+        margin-bottom: 8px;
+      }
+      &__input {
+        width: 536px;
+        height: 60px;
+
+        background: #ffffff;
+        border: 2px solid #57b3ff;
+        box-sizing: border-box;
+
+        @include Text-Style-5;
+        padding: 10px;
+      }
+      &__error {
+        @include Text-Style-5;
+        color: red !important;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+    }
+    &__email {
+      width: 536px;
+      height: 96px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      &__title {
+        &__image {
+          height: 21.52px;
+          width: 30px;
+          margin-right: 23px;
+        }
+        @include Text-Style-4;
+        margin-bottom: 8px;
+      }
+      &__input {
+        width: 536px;
+        height: 60px;
+
+        background: #ffffff;
+        border: 2px solid #57b3ff;
+        box-sizing: border-box;
+
+        @include Text-Style-5;
+        padding: 10px;
+      }
+      &__error {
+        @include Text-Style-5;
+        color: red !important;
+        margin-top: 2px;
+      }
+    }
+    &__course {
+      margin-top: -15px;
+      &__checkbox {
+        display: flex;
+        flex-direction: row;
+        &__2 {
+          margin-left: 100px;
+        }
+      }
+      &__checkbox__check {
+        width: 40px;
+        height: 40px;
+        border: 2px solid #57b3ff;
+        box-sizing: border-box;
+      }
+      &__checkbox__label {
+        margin-left: 16px;
+        @include Text-Style-4;
+        color: black !important;
+      }
+      &__price {
+        @include Text-Style-4;
+        text-align: center;
+        margin: -20px 0px 5px 0px;
+      }
+      &__error {
+        @include Text-Style-5;
+        color: red !important;
+        margin-top: 2px;
+      }
+    }
+    &__button {
+      width: 530px;
+      height: 74px;
+      left: 166px;
+      margin-bottom: 32px;
+
+      background: linear-gradient(
+        80.25deg,
+        #3dffc8 1.31%,
+        #40f6cf 15.32%,
+        #49dce1 38.61%,
+        #57b3ff 68.19%
+      );
+      box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+      border-radius: 20px;
+      border: solid 0px rgba(46, 153, 241, 0.5);
+
+      @include Text-Style-3;
+      cursor: pointer;
+    }
+  }
+}
